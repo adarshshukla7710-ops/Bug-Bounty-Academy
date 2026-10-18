@@ -146,26 +146,56 @@ Follows HackerOne and Bugcrowd industry-standard formats:
 
 ---
 
+
 ## 🚀 Building & Running
 
 ### Prerequisites
+
 - Android Studio Hedgehog (2023.1.1) or later
-- JDK 17+
-- Android SDK 34 (minSdk 26, targetSdk 34)
+- JDK 17 or later
+- Android SDK 34
+- Android device or emulator (API 26+)
 
-### Command-Line Build
+### 1. Clone the Repository
+
 ```bash
-# Clone or navigate to the workspace
-cd "/Users/apple/Desktop/untitled folder"
+git clone https://github.com/adarshshukla7710-ops/Bug-Bounty-Academy.git
+cd Bug-Bounty-Academy
+```
 
-# Build debug APK
+### 2. Build the Debug APK
+
+```bash
+chmod +x gradlew
 ./gradlew assembleDebug
+```
 
-# Run unit tests
+Generated APK location:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+### 3. Run Unit Tests
+
+```bash
 ./gradlew testDebugUnitTest
+```
 
-# Install to connected device or emulator
+### 4. Install on a Connected Android Device
+
+Connect an Android device with USB debugging enabled, or start an emulator, then run:
+
+```bash
 ./gradlew installDebug
 ```
-The output APK will be generated at:
-`app/build/outputs/apk/debug/app-debug.apk`
+
+### 5. Open in Android Studio
+
+1. Launch Android Studio.
+2. Select **Open**.
+3. Choose the cloned `Bug-Bounty-Academy` project folder.
+4. Allow Gradle sync to complete.
+5. Build and run the application.
+
+> **Note:** These commands assume the repository contains the Gradle wrapper and a correctly configured Android project. The first build may require an internet connection to download dependencies.
