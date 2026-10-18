@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Outline -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,20 L84,32 C84,56 71,76 54,88 C37,76 24,56 24,32 Z" />
+    <!-- Inner Shield Dark Layer -->
+    <path
+        android:fillColor="#161B22"
+        android:pathData="M54,24 L80,35 C80,55 69,72 54,83 C39,72 28,55 28,35 Z" />
+    <!-- Bug Emblem -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M54,42 C50,42 46,45 46,50 L46,58 C46,63 50,66 54,66 C58,66 62,63 62,58 L62,50 C62,45 58,42 54,42 Z M42,48 L36,44 M42,54 L34,54 M42,60 L36,64 M66,48 L72,44 M66,54 L74,54 M66,60 L72,64"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+</vector>

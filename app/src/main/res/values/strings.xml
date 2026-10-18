@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BugBounty Academy</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_curriculum">Curriculum</string>
+    <string name="nav_labs">Practice Labs</string>
+    <string name="nav_quizzes">Quizzes</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_report">Report Builder</string>
+    <string name="nav_profile">Profile</string>
+</resources>
